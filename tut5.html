@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>LEARNING CSS</title>
+</head>
+<body>
+       <!-- property:values -->
+       <!-- types to include css to your HTML file
+       1. INLINE CSS - add styling to particular element in html document
+       2.EXTERNAL CSS - adding external css file to an html document
+       3.INTERNAL CSS - in tht HTML file we add css in a seperate style tag
+       just like using script tag to add javascript -->
+
+       <!-- SELECTORS - choosing element to add css
+       1. combined selectors - choosing more than one element
+       2. class selectors -
+              SYNTAX - .classname{
+              property:value;   }
+       3. id selectors - a) specify id
+              b)SYNTAX - #idname{
+              property:value;    }
+       4. attribute selector - suppose <a href="www.example.com">
+              SYNTAX - a[href="www.example.com"]{
+              property:value;  }
+       5. pseudo class selectors -add styling to state of an element some are hover , visited,.. etc basically used for buttons
+              SYNTAX- selectorname : pseudoselectorname-class{
+              property:value;  }
+       6. pseudo element selector - select child tag
+       - suppose <p> multiple lines </p>
+              SYNTAX- p:: first-line{
+              color:brown;  }
+       7. Combinator selector-can select parent tag as well as child tag 
+              SYNTAX- article>p{
+              }
+       8. Universal selector - selects all the content of that document
+            SYNTAX- *{
+              property:value;   }     -->
+<article>
+       <h1>Combinator selector example</h1><br>
+       <p>to apply css to all the p
+       tags inside the parent tag article</p>
+       <span></span>
+       <div>
+              <p>another p tag</p>
+              <p>just one more p tag</p>
+       </div>
+</article>
+</body>
+</html>
