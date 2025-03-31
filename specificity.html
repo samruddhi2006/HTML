@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+
+         /* If specificity of both are same then specificity of 1st one is applied
+        else the one with greater specificity is applied */
+
+        
+ul#cool-drinks li.cola{
+color: red;
+font-weight: bold;
+}
+ul#cool-drinks li{
+    font-size: 14px;
+    
+}
+
+    </style>
+</head>
+<body>
+    <ul id="cool-drinks">
+<li>Sprite</li>
+<li class="cola">Cola</li>
+<li>Mountain dew</li>
+    </ul>
+
+
+</body>
+</html>
