@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: blue;
+        }
+        .class1 a{
+            /* it inherits the property of parent , its parent is body */
+            color: inherit;
+        }
+        .class2 a{
+            /* initial gives the color which was initially present */
+            color: initial;
+        }
+        .class3 a {
+            /*  */
+            color: unset;
+        }
+        .important{
+            /* for the property in the style to be applied even after inline css is present we write - !important */
+            color: darkgreen !important;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li> Default <a href="">Link</a> Color</li>
+        <li class="class1">inherited <a href="">Link</a> Color</li>
+        <li class="class2"> unset <a href="">Link</a> Color</li>
+        <li class="class3">initial <a href="">Link</a> Color</li>
+    </ul>
+    <p class="important" style="color: red;"> This is red
+    </p>
+    
+</body>
+</html>
