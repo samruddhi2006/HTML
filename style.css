@@ -1,15 +1,15 @@
 /* if you have class= special for three things but want to apply css to only 2 things the */
- 
+
 /*h1.special , li.special{
-   color: blue; 
-   font-weight: bold;
+    color: blue;
+    font-weight: bold;
 } */
 
 /* Desendent combinator */
 
 /* applying css to em tag inside li tag */
 
-  /* li em {
+/* li em {
     background-color:brown;
     color: azure;
 }
@@ -20,14 +20,14 @@ section p{
 
 /* Asendent tag */
 
- 
+
 /*h1+p{
         color:forestgreen;
 } */
 
 /* CSS for pseudo class elements */
 
- /* address a:hover{
+/* address a:hover{
     color: red;
 }
 body h1+p .special{
