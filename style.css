@@ -1,0 +1,83 @@
+/* if you have class= special for three things but want to apply css to only 2 things the */
+ 
+/*h1.special , li.special{
+   color: blue; 
+   font-weight: bold;
+} */
+
+/* Desendent combinator */
+
+/* applying css to em tag inside li tag */
+
+  /* li em {
+    background-color:brown;
+    color: azure;
+}
+section p{
+    color: red;
+    background-color: rgb(241, 227, 208);
+} */
+
+/* Asendent tag */
+
+ 
+/*h1+p{
+        color:forestgreen;
+} */
+
+/* CSS for pseudo class elements */
+
+ /* address a:hover{
+    color: red;
+}
+body h1+p .special{
+    color: darkred;
+    background-color: aquamarine;
+}  */
+
+/* CSS for id selectors */
+
+/* #heading{
+    color: turquoise;
+    background-color: maroon;
+}
+p#idselector {
+    color: darkblue;
+    background-color:silver;
+    padding: 60px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    
+}
+ul{
+    list-style: lower-greek;
+}
+li[class~="a"]{
+    color: magenta;
+} 
+  */
+
+  /* Universal selectors */
+*{
+    list-style: none;
+    padding: 2px; 
+    background-color: ;
+    display: block;
+    color:floralwhite ;
+    
+}
+video{
+    background-color: lightsteelblue;
+    margin-left: 40px;
+    margin-right: 50px;
+    width: full-width;
+}
+
+
+
+
+
+
+
