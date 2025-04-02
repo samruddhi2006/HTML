@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>AUDIO AND VIDEO</title>
+</head>
+<body>
+    <!--we use audio tag to display audio then source , and src attribute 
+    also audio will only be displayed when we use controls after audio tag ,
+also we can use loop tag to play the audio nonstop  -->
+    
+    <label for="audio">Play the audio</label>
+    <audio controls name="audio">
+        <source src="\AudVID\Madhurashtakam.mp3">
+    </audio><br>
+    
+    <!--Same with video we use video tag , its optional to mention width and height ,
+    but we have to use controls for it to display- and use src attribute for source , 
+    to autoplay we can add an attibute as autoplay , muted to mute video loop 
+    attribute to play it continuously-->
+
+    <label for="video">Play the video</label>
+    <video name="video" width="400" height="200" controls src="\AudVID\Dummy video.mp4"  , autoplay muted></video>
+    
+</body>
+</html>
